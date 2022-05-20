@@ -2,7 +2,11 @@ import { BaseMailer, MessageContract } from '@ioc:Adonis/Addons/Mail'
 
 
 export default class Enviasenha extends BaseMailer {
-    
+
+
+
+
+  
   public html = 
     `
     <h1>Olá, seja bem vindo ao EMAJ! teste de segurança</h1>
@@ -10,9 +14,9 @@ export default class Enviasenha extends BaseMailer {
   `
  
 
-  public async prepare(message: MessageContract) {
+  public async prepare(message: MessageContract, ) {
     message
-      .subject('EMAJ - Criar senha')
+      .subject('EMAJ - Crniar senha')
       .from('nao_responda@uniplaclages.edu.br', 'UniPlac')
       .to('matheus@uniplac.net', 'Matheus')
       .html(this.html)

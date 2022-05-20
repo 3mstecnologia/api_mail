@@ -21,4 +21,4 @@
 import Route from '@ioc:Adonis/Core/Route'
 
 
-Route.post('/enviaemail', 'EnviaLinksController.enviaemail')
+Route.post('/enviaemail', 'MailSendsController.envia')
