@@ -1,0 +1,15 @@
+PORT=3991
+HOST=0.0.0.0
+NODE_ENV=development
+APP_KEY=3U3TrrtevgoH3vC3d1iMo2IyjLJH61Tf
+DRIVE_DISK=local
+
+
+
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USERNAME=nao_responda@uniplaclages.edu.br
+SMTP_PASSWORD=uniplacemajemail
+
+CACHE_VIEWS=true
+SESSION_DRIVER=cookie
